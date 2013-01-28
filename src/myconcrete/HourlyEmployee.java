@@ -1,13 +1,13 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package myconcrete;
 
 /**
  *
- * @author Chumples
+ * @author Paul Jung
  */
-public class HourlyEmployee {
-    
+public class HourlyEmployee extends Employee
+{    
+    public double getwage(double hourlyRate, double hoursWorked)
+    {
+        return hourlyRate * hoursWorked;
+    }
 }
