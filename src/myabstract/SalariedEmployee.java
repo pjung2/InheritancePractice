@@ -1,13 +1,28 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package myabstract;
 
 /**
  *
- * @author Chumples
+ * @author Paul Jung
  */
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee
+{
+    private double salary;
+
+    @Override
+    public double getWage()
+    {
+        return salary;
+    }
+
+    public double getSalary()
+    {
+        return salary;
+    }
+
+    public void setSalary(double salary)
+    {
+        this.salary = salary;
+    }
+    
     
 }
